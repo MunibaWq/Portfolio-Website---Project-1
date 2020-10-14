@@ -6,20 +6,6 @@
 
 
 
-span{
-    display: flex;
-    font-family: 'Ruda';
-    font-weight:700;
-    color: rgb(220, 220, 220);
-  
-    font-size: 20vw;
-    z-index: 1;
-    /* line-height: 122vh; */
-    
-   
-    /* z-index: 1; */
-}
-
 
 
 .home {
@@ -30,32 +16,37 @@ span{
     z-index: 2;
 }
 
+
+.home scale {
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+}
+
 .intro{
     display: flex;
-   
+    
     font-weight:700;
     color: rgb(226, 226, 226);
-  
+    
     font-size: 10vw;
     justify-content: flex-start;
     align-items: center;
-   
-   
+    
+    
 }
 
 .intro-content {
     display: flex;
-
+    
     color: black;
     align-items: center;
     justify-items: center;
     margin-right: 30%;
-
-    /* padding-bottom: 30vh;
-    width: 28vw; */
+    
     font-size: 1.5vw;
     
-   
+    
 }
 
 
@@ -67,26 +58,35 @@ span{
     justify-content: space-around;
     align-items: center;
     
-   
+    
 } */
 
 
-.home scale {
-    display: flex;
-    justify-content: start;
-    align-content: flex-start;
-}
 
 
 .projects {
     height: 100vh;
     background-color: #efe4e3;
-  
+    
 }
 
-#pageTitle {
- 
+
+.contact {
+    height: 50vh;
+    background-color: #fbfae8;
     
+}
+
+#projectsTitle, #contactTitle {
+    display: flex;
+    font-family: 'Ruda';
+    font-weight:700;
+    color: rgb(220, 220, 220);
+  
+    font-size: 20vw;
+    z-index: 1;
+   
+
     height: 100%;
     display: flex;
     
@@ -96,12 +96,6 @@ span{
 
     
     position: relative;
-}
-
-.contact {
-    height: 50vh;
-    background-color: #fbfae8;
-   
 }
 
 .projectsList {

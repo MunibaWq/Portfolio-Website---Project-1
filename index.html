@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="./particles/particles.css">
   <link rel="stylesheet" href="carousel.css">
+  <link rel="stylesheet" href="contactModal.css">
 
 
 
@@ -78,7 +79,7 @@
   </div> -->
   
   <div class = "projects">
-    <span id="pageTitle">PROJECTS</span>
+    <span id="projectsTitle">PROJECTS</span>
    
     <!-- Image Slider -->
     <div class = "slideshow-container">
@@ -107,9 +108,31 @@
 
   </div>
   
+  <!-- CONTACT PAGE -->
   <div class = "contact">
-    <span id="pageTitle">CONTACT</span>
+    <div class="contact-me">
+      <h2>+Message me</h2>
+      <button class="contact-modal-btn">Modal</button>
+    </div>
+
+    <div class="contact-modal-bg">
+      <div class="modal">
+        <h2>Let's get in touch</h2>
+
+        <label for = "name">Name:</label>
+        <input type = "text">
+
+        <label for = "email">Email:</label>
+        <input type="email">
+
+        <label for = "message">Message:</label>
+        <input type="text">
+
+    <span id="contactTitle">CONTACT</span>
     
+
+      </div>
+    </div>
   </div>
 
   <!-- Particles Effect  -->
@@ -119,6 +142,7 @@
   <script src="carousel.js"></script>
   <script src="script.js"></script>
   <script src="smoothScroll.js"></script>
+  <script src="contactModal.js"></script>
   
   
 </body>
