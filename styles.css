@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Ruda';
+    src: url(Ruda-VariableFont_wght.ttf);
+    font-weight: 1 999;
+}
+
+
+
+span{
+    display: flex;
+    font-family: 'Ruda';
+    font-weight:700;
+    color: rgb(220, 220, 220);
+  
+    font-size: 20vw;
+    z-index: 1;
+    /* line-height: 122vh; */
+    
+   
+    /* z-index: 1; */
+}
+
+
+
+.home {
+    height: 100vh;
+    font-family: 'Ruda';
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.intro{
+    display: flex;
+   
+    font-weight:700;
+    color: rgb(226, 226, 226);
+  
+    font-size: 10vw;
+    justify-content: flex-start;
+    align-items: center;
+   
+   
+}
+
+.intro-content {
+    display: flex;
+
+    color: black;
+    align-items: center;
+    justify-items: center;
+    margin-right: 30%;
+
+    /* padding-bottom: 30vh;
+    width: 28vw; */
+    font-size: 1.5vw;
+    
+   
+}
+
+
+
+/* .about {
+    height: 100vh;
+    background-color: #f5f1f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+} */
+
+
+.home scale {
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+}
+
+
+.projects {
+    height: 100vh;
+    background-color: #efe4e3;
+  
+}
+
+#pageTitle {
+ 
+    
+    height: 100%;
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+
+    
+    position: relative;
+}
+
+.contact {
+    height: 50vh;
+    background-color: #fbfae8;
+   
+}
+
+.projectsList {
+    font-family: "Ruda";
+    color: black;
+    
+    margin-left: 1vw;
+    margin-top: 65vh;
+}
+
+.projectName {
+    font-family: "Ruda";
+    color: black;
+   position: relative;
+    
+   font-size: 10vw;
+    margin-left: 40vw;
+    /* margin-top: 65vh; */
+}
