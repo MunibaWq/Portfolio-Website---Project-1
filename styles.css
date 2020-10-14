@@ -74,6 +74,7 @@
 .contact {
     height: 50vh;
     background-color: #fbfae8;
+
     
 }
 
@@ -93,9 +94,14 @@
     justify-content: flex-end;
     align-items: flex-start;
     
-
-    
     position: relative;
+}
+
+#contactTitle {
+    margin-top: -43vh;
+    justify-content: center;
+    position: fixed;
+   
 }
 
 .projectsList {
