@@ -72,7 +72,7 @@
 
 
 .contact {
-    height: 50vh;
+    height: 45vh;
     background-color: #fbfae8;
 
     
@@ -98,9 +98,9 @@
 }
 
 #contactTitle {
-    margin-top: -43vh;
-    justify-content: center;
-    position: fixed;
+    margin-top: -25vh;
+    
+  
    
 }
 
