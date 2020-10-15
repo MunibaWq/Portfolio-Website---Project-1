@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
     font-family: 'Ruda';
     src: url(Ruda-VariableFont_wght.ttf);
     font-weight: 1 999;
@@ -8,15 +8,15 @@
     z-index: 2;
 }
 
-
 .contact-me h2 {
-    margin: 0px 0px 20px 0px;
-    padding-top: 40px;
+    /* margin: 0px 0px 20px 0px; */
+ margin-top: -200px;
 }
+
 
 .contact-me button {
     margin: 20px;
-    padding: 10px 30px;
+    padding: 10px 10px;
 
     background-color: rgb(255, 180, 100);
     color: black;
